@@ -9,9 +9,12 @@ fun creatingCollections() {
     val set = setOf("a", "b", "c")
     val map = mapOf(Pair("number1", 1), Pair("number2", 2))
 
-    val filteredList = list
-            .map { it + "mapped" }
-            .also { println(it) }
-            .filter { it == "amapped" }
-            .forEach { println("final result is $it") }
+    val filteredList: List<String> = list
+            .map { it + "mapped" } //1 loop
+            .also { println(it) } //1 loop
+            .filter { it == "amapped" } //1 loop
+
+    filteredList.forEach { println("final result is $it") }
+
+    //1. use sequences to be lazy and then use "terminal" toList method
 }

@@ -15,7 +15,8 @@ fun ifStatements(): Int {
     //can be used as an expression too
 }
 
-fun smartCastWithWhenStatement(couldBeAnything: Any) { //Any equivalent to java Object
+fun smartCastWithWhenStatement(couldBeAnything: Any) {
+    //Use in keyword followed by range too
     when (couldBeAnything) {
         1 -> print("x == 1")
         2 -> print("x == 2") //can one line these two conditions!
@@ -31,6 +32,7 @@ fun forLoop(iterable: Iterable<String>) {
         println("Item is ${item}")
     }
 
+//    val rangeOfNumbers: IntRange = 1..5
     for (number in 1..5) {
         println("Number is $number")
     }

@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
     exampleClass.someOtherMethod("helooooo")
 }
 
-// Extension function can go here!
+// Extension function can go here! Cannot override (but can overload)
 
 class ExtensionFunction {
 

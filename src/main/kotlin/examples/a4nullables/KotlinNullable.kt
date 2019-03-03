@@ -6,6 +6,8 @@ fun main(args: Array<String>) {
 
 class KotlinNullable {
 
+    var nullableValue: String? = null
+
     fun uppercaseString(maybeNullString: String?): String? {
         return maybeNullString?.toUpperCase()
     }
@@ -26,5 +28,6 @@ class KotlinNullable {
         }
     }
 
+    //1. Null pointer checker with ? before method call
 
 }

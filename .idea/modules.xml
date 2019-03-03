@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/practice.iml" filepath="$PROJECT_DIR$/.idea/modules/practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/practice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/practice_main.iml" group="practice" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/practice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/practice_test.iml" group="practice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workshop.iml" filepath="$PROJECT_DIR$/.idea/modules/workshop.iml" group="workshop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workshop/workshop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/workshop/workshop_main.iml" group="workshop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workshop/workshop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/workshop/workshop_test.iml" group="workshop" />
     </modules>
   </component>
 </project>
