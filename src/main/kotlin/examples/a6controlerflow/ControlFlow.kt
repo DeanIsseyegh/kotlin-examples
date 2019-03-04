@@ -13,6 +13,7 @@ fun ifStatements(): Int {
         return 2
     }
     //can be used as an expression too
+    //elvis operator exists too
 }
 
 fun smartCastWithWhenStatement(couldBeAnything: Any) {

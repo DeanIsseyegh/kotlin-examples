@@ -16,6 +16,10 @@ class KotlinFunctions {
         namedParametersAndDefaults(firstName = "Pika")
     }
 
+    inline fun inlinedPerformantFunction(aLambda: () -> Boolean) {
+        println("I'm inlined!")
+    }
+
     //1. Unit = Void
 
     //2. Single expression functions have inferred return type
