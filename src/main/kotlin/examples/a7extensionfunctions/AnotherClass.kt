@@ -4,6 +4,7 @@ class AnotherClass {
 
     fun doStuff() {
         val theString = "Hello"
-        theString.upperCaseLastCharacter()
+//        theString.upperCaseLastCharacter()
+//        uncomment above when extension fun implemented
     }
 }
